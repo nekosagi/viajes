@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+    color:whitesmoke;
+}
+.navs{
+    position:fixed;
+    z-index:10;
+    width: 100%;
+}
+
+.line{
+    border: 1px solid;
+    color:rgb(58, 189, 182);
+    margin: 40px 0;
+}
+
+i{
+    font-size: 30px;
+    padding: 5px;
+}
+
+.iconbox{
+    background-color: rgb(58, 189, 182);
+    text-align: center;
+    margin: 10px 0;
+}
