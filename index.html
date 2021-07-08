@@ -24,15 +24,15 @@
         </button>
         <div class="collapse navbar-collapse justify-content-end mr-5" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link active" href="#">Inicio<span class="sr-only">(current)</span></a>
-            <a class="nav-link" href="#">Quienes somos</a>
-            <a class="nav-link" href="#">Destacados</a>
-            <a class="nav-link" href="#">Contacto</a>
+            <a class="nav-link active" href="#carouselExampleControls">Inicio<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#quien">Quienes somos</a>
+            <a class="nav-link" href="#destacados">Destacados</a>
+            <a class="nav-link" href="#contacto">Contacto</a>
           </div>
         </div>
     </nav>
 
-    <div id="carouselExampleControls caru" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
@@ -54,26 +54,28 @@
         </a>
     </div>
 
-    <section class="container">
+    
+
+    <section class="container" id="quien">
         <h2 class="text-center mt-5 titulos">¿Quiénes somos?</h2>
         <hr class="line">
         <div class="row">
-            <div class="col-xs-12 col-md-4">
-                <div class="iconbox"><i class="fas fa-plane"></i></div>
+            <div class="col-sm-12 col-md-4">
+                <div class="iconbox" data-toggle="tooltip" data-placement="top" title="Viajes"><i class="fas fa-plane"></i></div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quod consequuntur eos, repellat dignissimos, laudantium sint iure aliquid quae minima assumenda possimus! Ab numquam quasi deleniti eveniet sed accusantium vero! Lorem ipsum dolor sit amet consectetur adipisicing elit. A ullam cupiditate neque cum, veniam nisi soluta perferendis. Harum, eligendi repellendus, nam adipisci iusto, temporibus ipsam optio est dolor ratione culpa? Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur eaque illo ipsum optio, molestias veritatis cum quidem perspiciatis dicta ut minima. Suscipit voluptatem, animi excepturi voluptate ex ea quod ab!</p>
             </div>
-            <div class="col-xs-12 col-md-4">
+            <div class="col-sm-12 col-md-4" >
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quod consequuntur eos, repellat dignissimos, laudantium sint iure aliquid quae minima assumenda possimus! Ab numquam quasi deleniti eveniet sed accusantium vero! Lorem ipsum dolor sit amet consectetur adipisicing elit. A ullam cupiditate neque cum, veniam nisi soluta perferendis. Harum, eligendi repellendus, nam adipisci iusto, temporibus ipsam optio est dolor ratione culpa? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga tempora doloribus, aperiam ut dolore animi esse ipsam deserunt accusamus, iure officia a deleniti consequuntur corporis exercitationem, repellat laboriosam cumque debitis.</p>
-                <div class="iconbox"><i class="fas fa-mountain"></i></div>
+                <div class="iconbox" data-toggle="tooltip" data-placement="bottom" title="Excursiones"><i class="fas fa-mountain"></i></div>
             </div>
             <div class="col-xs-12 col-md-4">
-                <div class="iconbox"><i class="fas fa-route"></i></div>
+                <div class="iconbox" data-toggle="tooltip" data-placement="top" title="Rutas"><i class="fas fa-route"></i></div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quod consequuntur eos, repellat dignissimos, laudantium sint iure aliquid quae minima assumenda possimus! Ab numquam quasi deleniti eveniet sed accusantium vero! Lorem ipsum dolor sit amet consectetur adipisicing elit. A ullam cupiditate neque cum, veniam nisi soluta perferendis. Harum, eligendi repellendus, nam adipisci iusto, temporibus ipsam optio est dolor ratione culpa? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, nobis eligendi, magni aliquid voluptas quaerat nisi quos sed tempora quae nesciunt cupiditate enim. Earum deserunt consequuntur sequi veniam repellat quisquam!</p>
             </div>
         </div>
     </section>
 
-    <section class="container">
+    <section class="container" id="destacados">
         <h2 class="text-center mt-5 titulos">Destacados</h2>
         <hr class="line">
         <div class="row">
@@ -116,26 +118,25 @@
         </div>
     </section>
 
-    <section class="container mb-5">
+    <section class="container mb-5" id="contacto">
         <h2 class="text-center mt-5 titulos">Contacto</h2>
         <hr class="line">
         <div class="typeform-widget" data-url="https://form.typeform.com/to/XJNDe5u9?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
     </section>
 
-    <footer>
-
+    <footer class="container-fluid"> 
       <div class="row">
-        <div class="col-xs-12 col-md-6 text-center">
+        <div class="col-sm-12 col-md-6 text-center">
           <h5 >VIAJES CHILE</h5>
         </div>
-        <div class="col-xs-12 col-md-6 text-center icons">
+        <div class="col-sm-12 col-md-6 text-center">
           <i class="fab fa-github-square"></i>
           <i class="fab fa-linkedin"></i>
           <i class="fab fa-twitter-square"></i>
           <i class="fab fa-facebook-square"></i>
         </div>
       </div>
-    </footer>
+    </footer> 
 
 
     
